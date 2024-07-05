@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnAdicionar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adicionar_cadastro" />
+
+    <Button
+        android:id="@+id/btnVisualizar"
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:text="@string/visualizar_cadastros" />
+
+    <Button
+        android:id="@+id/btnDeletar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/deletar_cadastro"
+        android:onClick="deletarCadastroNaMainActivity"
+        />
+
+    <Button
+        android:id="@+id/btnAtualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/atualizar_cadastro"
+        android:onClick="atualizarCadastroNaMainActivity"
+        />
+
+
+</LinearLayout>

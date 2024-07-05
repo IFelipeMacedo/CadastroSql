@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cadastro</string>
+    <string name="adicionar_cadastro">Adicionar Cadastro</string>
+    <string name="visualizar_cadastros">Visualizar Cadastros</string>
+    <string name="deletar_cadastro">Deletar Cadastro</string>
+    <string name="atualizar_cadastro">Atualizar Cadastro</string>
+</resources>

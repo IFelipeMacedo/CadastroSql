@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etIdAtualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="ID do Cadastro" />
+
+    <EditText
+        android:id="@+id/etNomeAtualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etIdAtualizar"
+        android:layout_margin="16dp"
+        android:hint="Nome" />
+
+    <EditText
+        android:id="@+id/etEmailAtualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etNomeAtualizar"
+        android:layout_margin="16dp"
+        android:hint="Email" />
+
+    <Button
+        android:id="@+id/btnBuscarCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etEmailAtualizar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Buscar Cadastro"
+        android:onClick="buscarCadastro" />
+
+    <Button
+        android:id="@+id/btnAtualizarCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnBuscarCadastro"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Atualizar Cadastro"
+        android:onClick="atualizarCadastro" />
+
+</RelativeLayout>
