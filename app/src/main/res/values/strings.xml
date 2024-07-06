@@ -4,4 +4,10 @@
     <string name="visualizar_cadastros">Visualizar Cadastros</string>
     <string name="deletar_cadastro">Deletar Cadastro</string>
     <string name="atualizar_cadastro">Atualizar Cadastro</string>
+    <string name="administrador">Administrador</string>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="salvar">Salvar</string>
+    <string name="id_do_cadastro">ID do Cadastro</string>
+    <string name="buscar_cadastro">Buscar Cadastro</string>
 </resources>
